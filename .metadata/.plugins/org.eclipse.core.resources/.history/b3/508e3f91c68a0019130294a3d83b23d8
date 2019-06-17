@@ -1,0 +1,24 @@
+package stepDefinition;
+
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
+import utility.OpenBrowser;
+
+public class Hooks extends OpenBrowser{
+		
+		@Before("@Smoketest")
+		public void beforetest()
+		{
+			OpenBrowser.openBrowser();
+		}
+		
+		@After("@Smoketest")
+		public void Afterretest() throws Throwable
+		{
+			driver.close();
+		    System.out.println("Execution completed");
+		}
+
+	}
+
+}

@@ -1,0 +1,33 @@
+package utility;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+
+public class GenericMethods extends OpenBrowser {
+	
+	public static void dropdownByValue(WebElement ele,String value)
+	{
+		Select sel=new Select(ele);
+		sel.selectByValue(value);
+				
+	}
+	public static void dropdownByIndex(WebElement ele,int index)
+	{
+		Select sel=new Select(ele);
+		sel.selectByIndex(index);
+				
+	}
+	public static void dropdownByVisibleText(WebElement ele,String value)
+	{
+		Select sel=new Select(ele);
+		sel.selectByVisibleText(value);;
+				
+	}
+	public static void confirmation_OK(WebElement ele)
+	{
+		driver.switchTo().alert().accept();;
+		
+	}
+	
+
+}

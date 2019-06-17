@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="cucumber.api.java.Before"/>
+<fullyQualifiedTypeName name="cucumber.api.java.After"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
+<fullyQualifiedTypeName name="utility.GenericMethods"/>
+<fullyQualifiedTypeName name="pageObjects.HomePageObject"/>
+<fullyQualifiedTypeName name="pageObjects.RegisterCustomerPageObject"/>
+<fullyQualifiedTypeName name="cucumber.api.DataTable"/>
+</qualifiedTypeNameHistroy>

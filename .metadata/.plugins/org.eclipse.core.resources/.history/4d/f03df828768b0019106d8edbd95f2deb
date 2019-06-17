@@ -1,0 +1,19 @@
+package collections;
+
+import java.util.HashMap;
+
+public class MapDemo {
+
+	public static void main(String[] args) {
+		HashMap<Integer,String> hm=new HashMap<Integer,String>();
+		hm.put(0, "First");
+		hm.put(1, "second");
+		hm.put(2, "third");
+		hm.put(3, "Fourth");
+		hm.put(4, "Fifth");
+		hm.put(5, "sixth");
+		
+
+	}
+
+}

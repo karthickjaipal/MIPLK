@@ -1,0 +1,7 @@
+Feature: Register Customer
+
+
+Scenario:
+Given User is on Register customer menu of home page
+When User enters all valid customer details and clicks on Save button
+Then Customer registered successfully message is displayed

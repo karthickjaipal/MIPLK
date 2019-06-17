@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="MIP_LK" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="cucumberOptions.TestRunner" time="4.629">
+    <testsuite name="Feature: Register Customer" time="4.629">
+      <testsuite name="Scenario: HP Registration" time="4.629">
+        <testcase name="Given User is on Register customer menu of home page" classname="Scenario: HP Registration" time="4.177"/>
+        <testcase name="When User enters all valid customer details and clicks on Save button" classname="Scenario: HP Registration" time="0.001"/>
+        <testcase name="Then Customer registered successfully message is displayed" classname="Scenario: HP Registration" time="0.451"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

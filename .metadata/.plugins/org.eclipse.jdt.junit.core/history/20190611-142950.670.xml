@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="MIP_LK" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="cucumberOptions.TestRunner" time="8.636">
+    <testsuite name="Feature: Register Customer" time="8.636">
+      <testsuite name="Scenario: PA2017 500K Prepaid Registration" time="8.636">
+        <testcase name="Given User is on Register customer menu of home page" classname="Scenario: PA2017 500K Prepaid Registration" time="8.413"/>
+        <testcase name="When User enters all valid customer details,selects PA2017 product and clicks on Save button" classname="Scenario: PA2017 500K Prepaid Registration" time="0.048"/>
+        <testcase name="Then Customer registered successfully message is displayed" classname="Scenario: PA2017 500K Prepaid Registration" time="0.175"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

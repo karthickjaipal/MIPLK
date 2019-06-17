@@ -1,0 +1,33 @@
+Feature: Register Customer
+
+
+Scenario: HP Prepaid Registration
+Given User is on Register customer menu of home page
+When User enters all valid customer details,selects HP product and clicks on Save button
+|NIC|CustomerName|PreferredLang|msisdn|AlternateContactnumber|
+|199726535765|TestHP|English|770970675|770990099|
+Then Customer registered successfully message is displayed
+
+
+Scenario: Life2017 100K Prepaid Registration
+Given User is on Register customer menu of home page
+When User enters all valid customer details,selects Life product and clicks on Save button
+|NIC|CustomerName|PreferredLang|msisdn|AlternateContactnumber|Lifecover|Nominee_name|Nominee_msisdn|Nominee_relation|
+|199726535324|TestLife|English|770971098|770990099|13|Testnominee|770990099|Spouse|
+Then Customer registered successfully message is displayed
+
+
+Scenario: PA2017 500K Prepaid Registration
+Given User is on Register customer menu of home page
+When User enters all valid customer details,selects PA2017 product and clicks on Save button
+|NIC|CustomerName|PreferredLang|msisdn|AlternateContactnumber|PAcover|Nominee_name|Nominee_msisdn|
+|199726535100|TestPA|English|770971099|770990099|17|Testnominee|770990099|
+Then Customer registered successfully message is displayed
+
+@SanityTest
+Scenario: HP and Life 100K Prepaid Registration
+Given User is on Register customer menu of home page
+When User enters all valid customer details,selects HP and Life product and clicks on Save button
+|NIC|CustomerName|PreferredLang|msisdn|HPAlternateContactnumber|LifeAlternateContactnumber|Lifecover|Nominee_name|Nominee_msisdn|Nominee_relation|
+|199726535765|TestHP|English|770967321|770990099|770990099|13|Testnominee|770990099|Spouse|
+Then Customer registered successfully message is displayed

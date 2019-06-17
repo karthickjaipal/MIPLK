@@ -1,0 +1,23 @@
+package ussd;
+
+import org.testng.annotations.Test;
+
+public class BranchManagement {
+	
+	
+	@Test
+	public void ussdCreateBranch(){
+		System.out.println("USSDBranch created successfully");
+	}
+	
+	@Test
+	public void ussdEditBranch(){
+		System.out.println("USSDBranch edited successfully");
+	}
+	
+	@Test
+	public void ussdDeleteBranch(){
+		System.out.println("USSDBranch deleted successfully");
+	}
+
+}

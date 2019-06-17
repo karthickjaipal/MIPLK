@@ -1,0 +1,9 @@
+Feature: Register Customer
+
+
+Scenario: HP Registration
+Given User is on Register customer menu of home page
+When User enters all valid customer details and clicks on Save button
+|NIC|Subscriberchannel|CustomerName|PreferredLang|ReferenceNumber|msisdn|Product|||||
+|199726535665||||||||||||
+Then Customer registered successfully message is displayed

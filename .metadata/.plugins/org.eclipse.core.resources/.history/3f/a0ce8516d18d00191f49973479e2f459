@@ -1,0 +1,35 @@
+package ussd;
+
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+
+public class BranchManagement {
+	
+	@BeforeSuite
+	public void clearBrowserHistoryandOpenDBConnection()
+	{
+		System.out.println("Cleared browser hsitory and jdbc connection opened");
+	}
+	@Test
+	public void ussdCreateBranch(){
+		System.out.println("USSDBranch created successfully");
+	}
+	
+	@Test
+	public void ussdEditBranch(){
+		System.out.println("USSDBranch edited successfully");
+	}
+	
+	@Test
+	public void ussdDeleteBranch(){
+		System.out.println("USSDBranch deleted successfully");
+	}
+	
+	@AfterSuite
+	public void clearBrowserHistoryandcloseDBConnection()
+	{
+		System.out.println("Cleared browser hsitory and jdbc connection closed");
+	}
+
+}

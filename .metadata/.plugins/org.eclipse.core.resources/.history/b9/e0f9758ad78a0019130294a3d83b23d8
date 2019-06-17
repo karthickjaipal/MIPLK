@@ -1,0 +1,105 @@
+package pageObjects;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class RegisterCustomerPageObject {
+	
+	@FindBy(xpath="//input[@id='nic']")
+	WebElement NIC;
+	@FindBy(xpath="//input[@id='subscriberChannelId' and value='1']")
+	WebElement GSM;
+	@FindBy(xpath="//input[@id='subscriberChannelId' and value='2']")
+	WebElement CDMA;
+	@FindBy(xpath="//input[@id='subscriberChannelId' and value='3']")
+	WebElement LTE;
+	@FindBy(xpath="//input[@id='subscriberChannelId' and value='4']")
+	WebElement DTV;
+	@FindBy(xpath="//input[@id='custName']")
+	WebElement customername;
+	@FindBy(xpath="//input[@id='referenceNumber']")
+	WebElement refno;
+	@FindBy(xpath="//input[@id='msisdn']")
+	WebElement msisdn;
+	@FindBy(xpath="//select[@id='preferredLang']")
+	WebElement prefLang;
+	@FindBy(xpath="//input[@type='checkbox' and @id='offerId' and @value='2']")
+	WebElement HP;
+	@FindBy(xpath="//input[@type='checkbox' and @id='offerId' and @value='6']")
+	WebElement Life;
+	@FindBy(xpath="//input[@type='checkbox' and @id='offerId' and @value='7']")
+	WebElement PA2017;
+	@FindBy(xpath="//input[@id='hpAlterContactNumber']")
+	WebElement hpalternatecontact;
+	@FindBy(xpath="//input[@id='life2017AlterContactNumber']")
+	WebElement lifealternatecontact;
+	@FindBy(xpath="//input[@id='nomineeName']")
+	WebElement nomineeName;
+	@FindBy(xpath="//input[@id='nomineeMsisdn']")
+	WebElement nomineeMsisdn;
+	@FindBy(xpath="//input[@id='offerCoverIdLife2017']")
+	WebElement lifecoverlevel;
+	@FindBy(xpath="//input[@id='insRelation']")
+	WebElement nomineerelation;
+	
+	public void setNic(String nic)
+	{
+		NIC.sendKeys(nic);
+	}
+	public void selectGSMChannel()
+	{
+		GSM.click();
+	}
+	public void selectCDMAChannel()
+	{
+		CDMA.click();
+	}
+	public void selectLTEChannel()
+	{
+		LTE.click();
+	}
+	public void enterCustomername(String cname)
+	{
+		customername.sendKeys(cname);;
+	}
+	public void enterMsisdn(String num)
+	{
+		msisdn.sendKeys(num);;
+	}
+	public void referenceNum(String refnum )
+	{
+		refno.sendKeys(refnum);;
+	}
+	public void preferredLang()
+	{
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MIP_LK">
+  <test name="Dashboard">
+    <packages>
+    <package name="Dashboard"
+    </packages>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

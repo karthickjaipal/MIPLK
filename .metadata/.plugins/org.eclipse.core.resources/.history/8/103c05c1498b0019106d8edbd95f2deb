@@ -1,0 +1,54 @@
+package stepDefinition;
+
+import cucumber.api.DataTable;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+import cucumber.api.java.en.Then;
+import cucumber.api.junit.Cucumber;
+import pageObjects.HomePageObject;
+import pageObjects.RegisterCustomerPageObject;
+import utility.OpenBrowser;
+
+import java.util.List;
+
+import org.junit.runner.RunWith;
+import org.openqa.selenium.By;
+
+@RunWith(Cucumber.class)
+public class RegisterCustomerSteps extends OpenBrowser {
+
+    @Given("^User is on Register customer menu of home page$")
+    public void user_is_on_register_customer_menu_of_home_page() throws Throwable {
+        HomePageObject home=new HomePageObject();
+        home.selectCusManagement();
+        home.selectRegisterCustomer();
+    }
+
+    @When("^User enters all valid customer details and clicks on Save button$")
+    public void user_enters_all_valid_customer_details_and_clicks_on_save_button(DataTable data) throws Throwable {
+        RegisterCustomerPageObject reg=new RegisterCustomerPageObject();
+        List<List<String>>obj=data.raw();
+        String nic=obj.get(1).get(0);
+        String cname=obj.get(1).get(1);
+        String lang=obj.get(1).get(2);
+        String num=obj.get(1).get(3);
+        String alt_num=obj.get(1).get(4);
+        reg.setNic(nic);
+        reg.selectGSMChannel();
+        reg.clickSearch();
+        reg.enterCustomername(cname);
+        reg.preferredLang(lang);
+        reg.enterMsisdn(num);
+        driver.findElement(By.cssSelector("legend#label_regcustomer_subheader1")).click();
+        reg.selectHP();
+        reg.enterHPalternatenumber(alt_num);
+        reg.clickSave();
+        
+    }
+
+    @Then("^Customer registered successfully message is displayed$")
+    public void customer_registered_successfully_message_is_displayed() throws Throwable {
+        System.out.println("customer");
+    }
+
+}

@@ -1,0 +1,44 @@
+package Dashboard;
+
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class UserManagement {
+	
+	@BeforeTest
+	public void checkDashboard()
+	{
+		System.out.println("Dashoard exists");
+	}
+	
+	@BeforeClass
+	public void checkforBranchManag()
+	{
+		System.out.println("BranchManagement exists");
+	}
+	
+	@Test
+	public void createUser(){
+		System.out.println("User created successfully");
+	}
+	
+	@Test
+	public void editUser(){
+		System.out.println("User edited successfully");
+	}
+	
+	@Test
+	public void deleteUser(){
+		System.out.println("User deleted successfully");
+	}
+	
+	//module level/class
+	@AfterTest
+	public void isDashboard()
+	{
+		System.out.println("Dashboard closure");
+	}
+
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MIP_LK" duration-ms="82" started-at="2019-06-13T12:06:39Z" finished-at="2019-06-13T12:06:39Z">
+    <groups>
+    </groups>
+    <test name="Dashboard" duration-ms="43" started-at="2019-06-13T12:06:39Z" finished-at="2019-06-13T12:06:39Z">
+      <class name="Dashboard.UserManagement">
+        <test-method status="PASS" signature="checkDashboard()[pri:0, instance:Dashboard.UserManagement@5ae9a829]" name="checkDashboard" is-config="true" duration-ms="1" started-at="2019-06-13T17:36:39Z" finished-at="2019-06-13T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDashboard -->
+        <test-method status="PASS" signature="checkforBranchManag()[pri:0, instance:Dashboard.UserManagement@5ae9a829]" name="checkforBranchManag" is-config="true" duration-ms="0" started-at="2019-06-13T17:36:39Z" finished-at="2019-06-13T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkforBranchManag -->
+        <test-method status="PASS" signature="createUser()[pri:0, instance:Dashboard.UserManagement@5ae9a829]" name="createUser" duration-ms="6" started-at="2019-06-13T17:36:39Z" finished-at="2019-06-13T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Dashboard.UserManagement@5ae9a829]" name="openBrowser" is-config="true" duration-ms="0" started-at="2019-06-13T17:36:39Z" finished-at="2019-06-13T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Dashboard.UserManagement@5ae9a829]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2019-06-13T17:36:39Z" finished-at="2019-06-13T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="deleteUser()[pri:0, instance:Dashboard.UserManagement@5ae9a829]" name="deleteUser" duration-ms="2" started-at="2019-06-13T17:36:39Z" finished-at="2019-06-13T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Dashboard.UserManagement@5ae9a829]" name="openBrowser" is-config="true" duration-ms="0" started-at="2019-06-13T17:36:39Z" finished-at="2019-06-13T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Dashboard.UserManagement@5ae9a829]" name="openBrowser" is-config="true" duration-ms="1" started-at="2019-06-13T17:36:39Z" finished-at="2019-06-13T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Dashboard.UserManagement@5ae9a829]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-06-13T17:36:39Z" finished-at="2019-06-13T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="editUser()[pri:0, instance:Dashboard.UserManagement@5ae9a829]" name="editUser" duration-ms="2" started-at="2019-06-13T17:36:39Z" finished-at="2019-06-13T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editUser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Dashboard.UserManagement@5ae9a829]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2019-06-13T17:36:39Z" finished-at="2019-06-13T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="testExecution()[pri:0, instance:Dashboard.UserManagement@5ae9a829]" name="testExecution" is-config="true" duration-ms="0" started-at="2019-06-13T17:36:39Z" finished-at="2019-06-13T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExecution -->
+        <test-method status="PASS" signature="isDashboard()[pri:0, instance:Dashboard.UserManagement@5ae9a829]" name="isDashboard" is-config="true" duration-ms="1" started-at="2019-06-13T17:36:39Z" finished-at="2019-06-13T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isDashboard -->
+      </class> <!-- Dashboard.UserManagement -->
+      <class name="Dashboard.BranchManagement">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Dashboard.BranchManagement@458ad742]" name="openBrowser" is-config="true" duration-ms="1" started-at="2019-06-13T17:36:39Z" finished-at="2019-06-13T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="checkforBranchManag()[pri:0, instance:Dashboard.BranchManagement@458ad742]" name="checkforBranchManag" is-config="true" duration-ms="0" started-at="2019-06-13T17:36:39Z" finished-at="2019-06-13T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkforBranchManag -->
+        <test-method status="PASS" signature="createBranch()[pri:0, instance:Dashboard.BranchManagement@458ad742]" name="createBranch" duration-ms="1" started-at="2019-06-13T17:36:39Z" finished-at="2019-06-13T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBranch -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Dashboard.BranchManagement@458ad742]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2019-06-13T17:36:39Z" finished-at="2019-06-13T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Dashboard.BranchManagement@458ad742]" name="openBrowser" is-config="true" duration-ms="1" started-at="2019-06-13T17:36:39Z" finished-at="2019-06-13T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="deleteBranch()[pri:0, instance:Dashboard.BranchManagement@458ad742]" name="deleteBranch" duration-ms="1" started-at="2019-06-13T17:36:39Z" finished-at="2019-06-13T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBranch -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Dashboard.BranchManagement@458ad742]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-06-13T17:36:39Z" finished-at="2019-06-13T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Dashboard.BranchManagement@458ad742]" name="openBrowser" is-config="true" duration-ms="0" started-at="2019-06-13T17:36:39Z" finished-at="2019-06-13T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="editBranch()[pri:0, instance:Dashboard.BranchManagement@458ad742]" name="editBranch" duration-ms="2" started-at="2019-06-13T17:36:39Z" finished-at="2019-06-13T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editBranch -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Dashboard.BranchManagement@458ad742]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-06-13T17:36:39Z" finished-at="2019-06-13T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="testExecution()[pri:0, instance:Dashboard.BranchManagement@458ad742]" name="testExecution" is-config="true" duration-ms="0" started-at="2019-06-13T17:36:39Z" finished-at="2019-06-13T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExecution -->
+      </class> <!-- Dashboard.BranchManagement -->
+    </test> <!-- Dashboard -->
+    <test name="USSD" duration-ms="1" started-at="2019-06-13T12:06:39Z" finished-at="2019-06-13T12:06:39Z">
+      <class name="Dashboard.BranchManagement">
+        <test-method status="PASS" signature="clearBrowserHistoryandOpenDBConnection()[pri:0, instance:Dashboard.BranchManagement@458ad742]" name="clearBrowserHistoryandOpenDBConnection" is-config="true" duration-ms="8" started-at="2019-06-13T17:36:39Z" finished-at="2019-06-13T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearBrowserHistoryandOpenDBConnection -->
+        <test-method status="PASS" signature="clearBrowserHistoryandcloseDBConnection()[pri:0, instance:Dashboard.BranchManagement@458ad742]" name="clearBrowserHistoryandcloseDBConnection" is-config="true" duration-ms="1" started-at="2019-06-13T17:36:39Z" finished-at="2019-06-13T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearBrowserHistoryandcloseDBConnection -->
+      </class> <!-- Dashboard.BranchManagement -->
+    </test> <!-- USSD -->
+  </suite> <!-- MIP_LK -->
+</testng-results>

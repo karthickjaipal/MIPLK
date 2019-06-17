@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MIP_LK">
+  <test name="Dashboard">
+    <classes>
+      <class name="Dashboard.UserManagement"/>
+      <class name="Dashboard.BranchManagement"/>
+    </classes>
+    </test>
+    <test name="USSD">
+    <classes>
+    <class name="ussd.BranchManagement">
+    <methods>
+    <include name="ussd.*"/>
+    </methods>
+    </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

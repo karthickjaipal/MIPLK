@@ -1,0 +1,10 @@
+package collections;
+
+import java.util.HashSet;
+
+public class SetDemo {
+	
+	HashSet<String> hs=new HashSet<String>();
+	hs.add
+
+}

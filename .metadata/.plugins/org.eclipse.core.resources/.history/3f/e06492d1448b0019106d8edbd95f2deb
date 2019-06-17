@@ -1,0 +1,9 @@
+Feature: Register Customer
+
+
+Scenario: HP Registration
+Given User is on Register customer menu of home page
+When User enters all valid customer details and clicks on Save button
+|NIC|CustomerName|PreferredLang|msisdn|AlternateContactnumber|
+|199726535665|TestHP|English|770990099|770990099|
+Then Customer registered successfully message is displayed

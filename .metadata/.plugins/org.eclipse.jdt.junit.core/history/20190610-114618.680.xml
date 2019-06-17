@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="MIP_LK" tests="3" started="3" failures="0" errors="2" ignored="1">
+  <testsuite name="cucumberOptions.TestRunner" time="2.166">
+    <testsuite name="Feature: Register Customer" time="2.166">
+      <testsuite name="Scenario: HP Registration" time="0.011" incomplete="true">
+        <error>java.lang.NullPointerException&#13;
+	at pageObjects.RegisterCustomerPageObject.setNic(RegisterCustomerPageObject.java:53)&#13;
+	at stepDefinition.RegisterCustomerSteps.user_enters_all_valid_customer_details_and_clicks_on_save_button(RegisterCustomerSteps.java:36)&#13;
+	at ✽.When User enters all valid customer details and clicks on Save button(RegisterCustomerFeature.feature:6)&#13;
+&#13;
+</error>
+        <testcase name="Given User is on Register customer menu of home page" classname="Scenario: HP Registration" time="0.006"/>
+        <testcase name="When User enters all valid customer details and clicks on Save button" classname="Scenario: HP Registration" time="0.005">
+          <error>java.lang.NullPointerException&#13;
+	at pageObjects.RegisterCustomerPageObject.setNic(RegisterCustomerPageObject.java:53)&#13;
+	at stepDefinition.RegisterCustomerSteps.user_enters_all_valid_customer_details_and_clicks_on_save_button(RegisterCustomerSteps.java:36)&#13;
+	at ✽.When User enters all valid customer details and clicks on Save button(RegisterCustomerFeature.feature:6)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="Then Customer registered successfully message is displayed" classname="Scenario: HP Registration" time="2.154" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

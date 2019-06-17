@@ -1,0 +1,27 @@
+package pageObjects;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class HomePageObject {
+	
+	@FindBy(xpath="//li[@id='menu5']")
+	WebElement CusManagement;
+	@FindBy(xpath="//li[@id='submenu22']")
+	WebElement RegisterCustomer;
+	
+	public HomePageObject(){
+		PageFactory.initElements(driver, this);
+	}
+	public void selectCusManagement()
+	{
+		CusManagement.click();
+	}
+	public void selectRegisterCustomer()
+	{
+		RegisterCustomer.click();
+	}
+	
+
+}

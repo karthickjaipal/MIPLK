@@ -1,0 +1,13 @@
+package Dashboard;
+
+import org.testng.annotations.Test;
+
+public class BranchManagement {
+	
+	
+	@Test
+	public void createBranch(){
+		System.out.println("Branch created successfully");
+	}
+
+}

@@ -1,0 +1,41 @@
+package pageObjects;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class RegisterCustomerPageObject {
+	
+	@FindBy(xpath="//input[@id='nic']")
+	WebElement nic;
+	@FindBy(xpath="//input[@id='subscriberChannelId' and value='1']")
+	WebElement GSM;
+	@FindBy(xpath="//input[@id='subscriberChannelId' and value='2']")
+	WebElement CDMA;
+	@FindBy(xpath="//input[@id='subscriberChannelId' and value='3']")
+	WebElement LTE;
+	@FindBy(xpath="//input[@id='subscriberChannelId' and value='4']")
+	WebElement DTV;
+	@FindBy(xpath="//input[@id='custName']")
+	WebElement customername;
+	@FindBy(xpath="//input[@id='referenceNumber']")
+	WebElement refno;
+	@FindBy(xpath="//input[@id='msisdn']")
+	WebElement msisdn;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	//select[@id='preferredLang']
+	//input[@type='checkbox' and @id='offerId' and @value='2']
+	//input[@type='checkbox' and @id='offerId' and @value='6']
+	//input[@type='checkbox' and @id='offerId' and @value='7']
+	
+
+}

@@ -1,0 +1,17 @@
+Feature: Register Customer
+
+@SanityTest
+Scenario: HP Prepaid Registration
+Given User is on Register customer menu of home page
+When User enters all valid customer details,selects HP product and clicks on Save button
+|NIC|CustomerName|PreferredLang|msisdn|AlternateContactnumber|
+|199726535703|TestHP|English|770970134|770990099|
+Then Customer registered successfully message is displayed
+
+@SanityTest
+Scenario: Life2017 100K Prepaid Registration
+Given User is on Register customer menu of home page
+When User enters all valid customer details,selects Life product and clicks on Save button
+|NIC|CustomerName|PreferredLang|msisdn|AlternateContactnumber|Lifecover|Nominee_name|Nominee_msisdn|Nominee_relation|
+|199726535704|TestLife|English|770970145|770990099|13|Testnominee|770990099|Spouse|
+Then Customer registered successfully message is displayed

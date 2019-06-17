@@ -1,0 +1,16 @@
+package collections;
+
+import java.util.HashSet;
+
+public class SetDemo {
+	
+	public static void main(String[] args)
+	{
+	
+	HashSet<String> h=new HashSet<String>();
+	h.add("java");
+	h.add("India");
+	h.add("usa");
+	h.add("london");
+
+}

@@ -1,0 +1,43 @@
+package stepDefinition;
+
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
+import pageObjects.LoginPageObject;
+import utility.OpenBrowser;
+
+public class Hooks extends OpenBrowser{
+		
+		@Before("@Smoketest")
+		public void beforetest()
+		{
+			OpenBrowser.openBrowser();
+		}
+		
+		@Before("@SanityTest")
+		public void beforeRegistrationtest()
+		{
+			OpenBrowser.openBrowser();
+			LoginPageObject lp=new LoginPageObject();
+	    	lp.setUsername("DA455");
+	        lp.setPassword("Dialog123!");
+		}
+		
+		@After("@Smoketest")
+		public void Aftertest() throws Throwable
+		{
+			driver.close();
+			System.out.println("Test case Execution completed..");
+
+		}
+		
+		@After("@Smoketest")
+		public void AfterRegistrationtest() throws Throwable
+		{
+			driver.close();
+			System.out.println("Test case Execution completed..");
+
+		}
+
+	}
+
+
